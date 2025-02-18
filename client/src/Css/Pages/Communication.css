@@ -1,0 +1,338 @@
+.communication-page-header {
+    display: flex;
+    justify-content: space-between;
+    height: 135px;
+    margin: 30px 80px 50px 80px;
+    border: 1px solid #04005d;
+}
+
+.communication-page-title {
+    display: flex;
+    align-items: center;
+    padding-left: 60px;
+}
+
+.communication-page-title h1 {
+    font-weight: bold;
+    font-size: 60px;
+    color: #04005d;
+}
+
+.communication-page-breadcrumb {
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+    gap: 15px;
+}
+
+.communication-page-breadcrumb a {
+    font-size: 13px;
+    color: grey;
+    text-decoration: none;
+}
+
+.communication-page-breadcrumb a:hover {
+    color: #474747;
+}
+
+.communication-page-breadcrumb-icon {
+    font-size: 11px;
+    color: grey;
+}
+
+.communication-page-breadcrumb strong {
+    font-weight: bold;
+    color: grey;
+    font-size: 16px;
+}
+
+.communication-page-contact-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.communication-page-contact-info {
+    padding-left: 150px;
+}
+
+.communication-page-contact-info strong {
+    margin-bottom: 15px;
+    display: block;
+    font-size: 20px;
+    color: #04005d;
+}
+
+.communication-page-contact-info a {
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 22px;
+    color: #04005d;
+}
+
+.communication-page-contact-info a:hover {
+    color: #110dd3;
+}
+
+.communication-page-social-links {
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    padding-top: 50px;
+    gap: 12px;
+}
+
+.communication-page-social-links a {
+    height: 35px;
+    width: 35px;
+    border: 1px solid #04005d;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #04005d;
+}
+
+.communication-page-social-links a:hover {
+    color: white;
+    background-color: #04005d;
+}
+
+.communication-page-contact-form {
+    padding-right: 140px;
+}
+
+.communication-page-form-field {
+    margin-bottom: 30px;
+}
+
+.communication-page-form-field strong {
+    display: block;
+    font-weight: bold;
+    font-size: 16px;
+    padding-bottom: 12px;
+}
+
+.communication-page-form-field input {
+    border: 1px solid #95989A;
+    height: 30px;
+    width: 600px;
+    outline: none;
+    padding: 16px 24px;
+    font-weight: 600;
+    border-radius: 2px;
+}
+
+::placeholder {
+    color: #95989A;
+}
+
+.communication-page-textarea-field {
+    border: 1px solid #95989A;
+    outline: none;
+    padding: 14px 16px;
+    font-weight: 600;
+    border-radius: 2px;
+    width: 615px;
+    height: 110px;
+}
+
+.communication-page-form-field-checkbox {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.communication-page-checkbox-field {
+    width: 20px;
+    height: 20px;
+    border-radius: 24px;
+    cursor: pointer;
+}
+
+.communication-page-checkbox-label {
+    padding-left: 8px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.communication-page-submit-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    background-color: #04005d;
+    height: 50px;
+    width: 180px;
+    margin-top: 40px;
+    margin-bottom: 150px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.communication-page-submit-button:hover {
+    background-color: #03003c;
+}
+
+.communication-page-button-text {
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.communication-page-send-icon {
+    color: white;
+    font-size: 24px;
+    margin-top: 4px;
+}
+
+@media(max-width:1300px) {
+    .communication-page-contact-info strong {
+        font-size: 17px;
+    }
+
+    .communication-page-contact-info a {
+        font-size: 17px;
+    }
+
+    .communication-page-social-links a {
+        font-size: 18px;
+        height: 30px;
+        width: 30px;
+    }
+
+    .communication-page-form-field input {
+        width: 410px;
+    }
+
+    .communication-page-textarea-field {
+        width: 425px;
+    }
+
+    .communication-page-form-field strong {
+        font-size: 14px;
+    }
+
+    ::placeholder {
+        font-size: 14px;
+    }
+
+    .communication-page-checkbox-label {
+        font-size: 12px;
+    }
+
+    .communication-page-checkbox-field {
+        height: 17px;
+        width: 17px;
+    }
+
+    .communication-page-submit-button {
+        height: 40px;
+        width: 160px;
+    }
+
+    .communication-page-button-text {
+        font-size: 16px;
+    }
+
+    .communication-page-send-icon {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 1035px) {
+    .communication-page-header {
+        margin: 30px 30px 70px 30px;
+    }
+
+    .communication-page-title {
+        margin-right: 10px;
+    }
+
+    .communication-page-title h1 {
+        font-size: 35px;
+    }
+
+    .communication-page-breadcrumb a,
+    .communication-page-breadcrumb .communication-breadcrumb-icon {
+        font-size: 11px;
+    }
+
+    .communication-page-breadcrumb strong {
+        font-size: 14px;
+    }
+
+    .communication-page-contact-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .communication-page-contact-info {
+        padding-left: 0px;
+        margin-bottom: 50px;
+    }
+
+    .communication-page-contact-form {
+        padding-right: 0px;
+    }
+
+    .communication-page-contact-info {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .communication-page-contact-info strong {
+        text-align: center;
+    }
+
+    .communication-page-social-links {
+        display: flex;
+        justify-content: center;
+        padding-top: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .communication-page-header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .communication-page-title {
+        padding: 20px 0px 20px 20px;
+    }
+
+    .communication-page-breadcrumb {
+        margin: 0px 0px 40px 20px;
+    }
+
+    .communication-page-contact-form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .communication-page-form-field input {
+        width: 250px;
+    }
+
+    .communication-page-textarea-field {
+        width: 265px;
+    }
+
+    .communication-page-form-field-checkbox {
+        display: flex;
+        justify-content: center;
+        width: 87%;
+    }
+
+    .communication-page-submit-button {
+        margin-top: 0px;
+        margin-bottom: 100px;
+    }
+}

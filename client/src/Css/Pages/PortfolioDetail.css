@@ -1,0 +1,445 @@
+.portfolyo-detail-header {
+    display: flex;
+    justify-content: space-between;
+    height: 135px;
+    margin: 30px 80px 70px 80px;
+    border: 1px solid #04005d;
+}
+
+.portfolyo-detail-title {
+    display: flex;
+    align-items: center;
+    padding-left: 60px;
+}
+
+.portfolyo-detail-title h1 {
+    font-weight: bold;
+    font-size: 60px;
+    color: #04005d;
+}
+
+.portfolyo-detail-breadcrumb {
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+    gap: 15px;
+}
+
+.portfolyo-detail-breadcrumb a {
+    font-size: 13px;
+    color: grey;
+    text-decoration: none;
+}
+
+.portfolyo-detail-breadcrumb a:hover {
+    color: #474747;
+}
+
+.portfolyo-detail-breadcrumb-icon {
+    font-size: 11px;
+    color: grey;
+}
+
+.portfolyo-detail-breadcrumb strong {
+    font-weight: bold;
+    color: grey;
+    font-size: 16px;
+}
+
+.portfolyo-detail-content {
+    color: white;
+}
+
+.portfolyo-detail-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 900px;
+}
+
+.portfolyo-detail-main {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    padding-left: 50px;
+    width: 50%;
+}
+
+.portfolyo-detail-info h2 {
+    font-size: 35px;
+}
+
+.portfolyo-detail-info strong {
+    font-size: 20px;
+}
+
+.portfolyo-detail-subtitle {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-top: 60px;
+}
+
+.portfolyo-detail-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-right: 3%;
+}
+
+.portfolyo-detail-image img {
+    text-align: end;
+    height: 550px;
+    width: 100%;
+    border-radius: 30px;
+}
+
+.portfolyo-detail-link-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.portfolyo-detail-link-header span {
+    font-size: 70px;
+}
+
+.portfolyo-detail-link {
+    text-align: center;
+    word-wrap: break-word;
+    max-width: 95%;
+}
+
+.portfolyo-detail-link a {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+.portfolyo-detail-link a:hover {
+    color: #dfdfdf;
+}
+
+.portfolyo-detail-font-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 800px;
+}
+
+.portfolyo-detail-font-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.portfolyo-detail-font-header span {
+    font-size: 70px;
+}
+
+.portfolyo-detail-font-header strong {
+    font-size: 90px;
+    padding: 10px 0px;
+}
+
+.portfolyo-detail-font-weights {
+    display: flex;
+    justify-content: space-between;
+    gap: 685px;
+    font-size: 40px;
+}
+
+.portfolyo-detail-colors-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 750px;
+}
+
+.portfolyo-detail-colors-header span {
+    font-size: 80px;
+}
+
+.portfolyo-detail-colors-list {
+    display: flex;
+    gap: 25px;
+    margin-top: 50px;
+}
+
+.portfolyo-detail-colors-list span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    border: 6px solid white;
+    text-decoration: none;
+    color: white;
+}
+
+.portfolyo-detail-colors-white {
+    color: #505054 !important;
+}
+
+.portfolyo-detail-work-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolyo-detail-work-header {
+    display: flex;
+    justify-content: center;
+}
+
+.portfolyo-detail-work-header h1 {
+    font-size: 60px;
+    letter-spacing: 7px;
+    font-weight: 100;
+    margin-bottom: 50px;
+}
+
+.portfolyo-detail-work-images {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 95%;
+    margin-right: 1.5%;
+}
+
+.portfolyo-detail-work-images img {
+    border-radius: 30px;
+    width: 100%;
+    height: 750px;
+}
+
+.portfolyo-detail-work-images img:last-child {
+    margin-bottom: 15%;
+}
+
+@media (max-width:1050px) {
+    .portfolyo-detail-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 950px;
+    }
+    .portfolyo-detail-info h2 {
+        font-size: 28px;
+    }
+
+    .portfolyo-detail-font-header strong {
+        font-size: 65px;
+    }
+
+    .portfolyo-detail-font-weights {
+        gap: 410px;
+    }
+
+    .portfolyo-detail-image {
+        margin: 5%;
+    }
+
+    .portfolyo-detail-image img {
+        width: 95%;
+        height: 450px;
+    }
+
+    .portfolyo-detail-work-images img {
+        height: 550px;
+    }
+
+    .portfolyo-detail-main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0px;
+        width: 100%;
+    }
+
+    .portfolyo-detail-info {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+}
+
+@media (max-width: 982px) {
+    .portfolyo-detail-header {
+        margin: 30px 30px 70px 30px;
+    }
+
+    .portfolyo-detail-title {
+        margin-right: 10px;
+    }
+
+    .portfolyo-detail-title h1 {
+        font-size: 35px;
+    }
+
+    .portfolyo-detail-breadcrumb a,
+    .portfolyo-detail-breadcrumb .portfolyo-detail-breadcrumb-icon {
+        font-size: 11px;
+    }
+
+    .portfolyo-detail-breadcrumb strong {
+        font-size: 14px;
+    }
+
+    .portfolyo-detail-work-images img {
+        height: 500px;
+    }
+}
+
+@media (max-width: 767px) {
+    .portfolyo-detail-info h2 {
+        font-size: 22px;
+    }
+
+    .portfolyo-detail-header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .portfolyo-detail-title {
+        padding: 20px 0px 20px 20px;
+    }
+
+    .portfolyo-detail-breadcrumb {
+        margin: 0px 0px 40px 20px;
+    }
+
+    .portfolyo-detail-font-container {
+        height: 500px;
+    }
+
+    .portfolyo-detail-colors-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 500px;
+    }
+
+    .portfolyo-detail-link a {
+        font-size: 30px;
+    }
+
+    .portfolyo-detail-link-header span,
+    .portfolyo-detail-font-header span {
+        font-size: 50px;
+    }
+
+    .portfolyo-detail-font-header strong {
+        font-size: 40px;
+    }
+
+    .portfolyo-detail-font-weights span {
+        font-size: 30px;
+    }
+
+    .portfolyo-detail-font-weights {
+        gap: 210px;
+    }
+
+    .portfolyo-detail-work-header h1 {
+        font-size: 45px;
+    }
+
+    .portfolyo-detail-work-images {
+        margin-right: 2.5%;
+    }
+
+    .portfolyo-detail-work-images img {
+        border: 5px solid #8B0000;
+    }
+
+    .portfolyo-detail-colors-header span {
+        font-size: 55px;
+    }
+
+    .portfolyo-detail-colors-list span {
+        height: 80px;
+        width: 80px;
+        border: 4px solid white;
+    }
+
+    .portfolyo-detail-work-images img {
+        height: 450px;
+    }
+
+    .portfolyo-detail-image img{
+        height: 400px;
+    }
+}
+
+@media (max-width:490px) {
+    .portfolyo-detail-title h1 {
+        font-size: 25px;
+    }
+
+    .portfolyo-detail-link-header span,
+    .portfolyo-detail-font-header span {
+        font-size: 30px;
+    }
+
+    .portfolyo-detail-link a {
+        font-size: 25px;
+    }
+
+    .portfolyo-detail-font-header strong {
+        font-size: 25px;
+    }
+
+    .portfolyo-detail-font-weights {
+        gap: 125px;
+    }
+
+    .portfolyo-detail-font-weights span {
+        font-size: 20px;
+    }
+
+    .portfolyo-detail-colors-header span {
+        font-size: 40px;
+    }
+
+    .portfolyo-detail-colors-list span {
+        height: 70px;
+        width: 70px;
+        border: 3px solid white;
+        font-size: 15px;
+    }
+
+    .portfolyo-detail-section {
+        gap: 30px;
+        height: 750px;
+    }
+
+    .portfolyo-detail-font-container {
+        height: 400px;
+    }
+
+    .portfolyo-detail-colors-container {
+        height: 400px;
+    }
+
+    .portfolyo-detail-work-images img {
+        height: 280px;
+    }
+    .portfolyo-detail-image img {
+        height: 250px;
+    }
+}

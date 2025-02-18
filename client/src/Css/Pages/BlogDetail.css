@@ -1,0 +1,464 @@
+.blog-detail-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.blog-detail-content-metadata {
+    width: 65%;
+}
+
+.blog-detail-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.blog-detail-header .about-breadcrumb-icon {
+    color: grey;
+    font-size: 11px;
+}
+
+.blog-detail-header div {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    padding: 40px 0px 30px 0px;
+    border-bottom: 1px solid #c2c2c3;
+}
+
+.blog-detail-header div a {
+    color: grey;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.blog-detail-header a:hover {
+    color: rgb(174, 174, 174);
+}
+
+.blog-detail-header strong {
+    color: grey;
+    font-size: 13px;
+}
+
+.blog-detail-body h2,
+h3 {
+    width: 85%;
+    margin-top: 30px;
+}
+
+.blog-detail-body p {
+    margin-top: 30px;
+    letter-spacing: 1px;
+    line-height: 1.8;
+    font-size: 14px;
+    width: 85%;
+    font-weight: 500;
+}
+
+.blog-detail-image img {
+    margin-top: 60px;
+    height: 80%;
+    width: 85%;
+}
+
+.blog-detail-download-section {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+.blog-detail-download-link a {
+    background-color: rgb(188, 251, 133);
+    color: black;
+    padding: 8px 40px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(39, 145, 1);
+}
+
+.blog-detail-download-link a:hover {
+    background-color: rgb(162, 226, 100);
+}
+
+.blog-detail-download-link a span {
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.blog-detail-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-right: 15%;
+}
+
+.blog-detail-social a {
+    color: black;
+}
+
+.blog-detail-social a:hover {
+    color: grey;
+}
+
+.blog-detail-comments-section h2 {
+    margin-top: 60px;
+    margin-bottom: 35px;
+}
+
+.blog-detail-comment {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.blog-detail-comments {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-bottom: 1px solid rgb(211, 211, 211);
+    width: 82%;
+    height: 100px;
+}
+
+.blog-detail-comments.no-border {
+    border-bottom: none;
+}
+
+.blog-detail-comment-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.blog-detail-user-avatar span {
+    border-radius: 50%;
+    background-color: #090385;
+    color: white;
+    font-weight: 600;
+    padding: 9px 8px;
+}
+
+.blog-detail-comment-info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.blog-detail-comment-author {
+    font-size: 17px;
+}
+
+.blog-detail-comment-date {
+    color: grey;
+    font-size: 12px;
+}
+
+.blog-detail-comment-body {
+    color: black;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.blog-detail-action-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    height: 120px;
+}
+
+.blog-detail-show-more span {
+    color: black;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.blog-detail-show-more span:hover {
+    color: #5d5d5d;
+}
+
+.blog-detail-comment-link {
+    margin-right: 18%;
+    width: auto;
+    text-align: end;
+}
+
+.blog-detail-comment-link span {
+    font-size: 20px;
+    font-weight: bold;
+    color: #8A2BE2;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.blog-detail-comment-link span:hover {
+    color: #9370DB;
+}
+
+.blog-detail-comment-container {
+    height: 300px;
+    width: 87%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.blog-detail-form-field {
+    margin-bottom: 30px;
+}
+
+.blog-detail-form-field strong {
+    display: block;
+    font-weight: bold;
+    font-size: 16px;
+    padding-bottom: 12px;
+}
+
+.blog-detail-textarea-field {
+    border: 1px solid #95989A;
+    outline: none;
+    font-weight: 600;
+    border-radius: 2px;
+    width: 90%;
+    height: 125px;
+    padding: 14px 16px;
+}
+
+.blog-detail-submit-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    background-color: #04005d;
+    height: 50px;
+    width: 180px;
+    margin-top: 40px;
+    margin-bottom: 150px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.blog-detail-submit-button:hover {
+    background-color: #03003c;
+}
+
+.blog-detail-button-text {
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.blog-detail-send-icon {
+    color: white;
+    font-size: 24px;
+    margin-top: 4px;
+}
+
+@media (max-width: 1500px) {
+    .blog-detail-form-field input {
+        width: 500px;
+    }
+
+    .blog-detail-form-field strong {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 1263px) {
+    .blog-detail-form-field input {
+        width: 410px;
+    }
+
+    .blog-detail-form-field strong {
+        font-size: 14px;
+    }
+
+    .blog-detail-submit-button {
+        height: 40px;
+        width: 160px;
+    }
+
+    .blog-detail-button-text {
+        font-size: 16px;
+    }
+
+    .blog-detail-send-icon {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 982px) {
+    .blog-detail-content-metadata {
+        width: 75%;
+    }
+
+    .blog-detail-form-field input {
+        width: 80%;
+    }
+
+    .blog-detail-form-field-checkbox {
+        width: 75%;
+    }
+}
+
+@media (max-width: 767px) {
+    .blog-detail-content-metadata {
+        width: 85%;
+    }
+
+    .blog-detail-header div {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        width: 83%;
+    }
+
+    .blog-detail-header div a {
+        font-size: 11px;
+    }
+
+    .blog-detail-header div strong {
+        font-size: 11px;
+    }
+
+    .blog-detail-body h2,
+    h3 {
+        font-size: 25px;
+    }
+
+    .blog-detail-body p {
+        font-size: 13px;
+    }
+
+    .blog-detail-download-link {
+        margin-left: 7.5%;
+    }
+
+    .blog-detail-download-link a {
+        padding: 6px 20px;
+    }
+
+    .blog-detail-download-link a span {
+        font-size: 17px;
+    }
+
+    .blog-detail-download-link a strong {
+        font-size: 14px;
+    }
+
+    .blog-detail-body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .blog-detail-image {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .blog-detail-social {
+        margin-right: 8%;
+    }
+
+    .blog-detail-social span {
+        font-size: 15px;
+    }
+
+    .blog-detail-comments-section {
+        margin-left: 8%;
+        font-size: 14px;
+    }
+
+    .blog-detail-comment {
+        display: flex;
+        align-items: center;
+    }
+
+    .blog-detail-comments {
+        margin-right: 2%;
+    }
+
+    .blog-detail-show-more {
+        margin-left: 8%;
+    }
+
+    .blog-detail-show-more span {
+        font-size: 12px;
+    }
+
+    .blog-detail-comment-link {
+        margin-right: 10%;
+    }
+
+    .blog-detail-comment-link span {
+        font-size: 18px;
+    }
+
+    .blog-detail-submit-button {
+        margin-top: 0px;
+        margin-bottom: 100px;
+    }
+
+    .blog-detail-comment-container {
+        margin-left: 8%;
+    }
+}
+
+@media (max-width: 450px) {
+    .blog-detail-content-metadata {
+        width: 100%;
+    }
+
+    .blog-detail-download-section {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .blog-detail-download-link {
+        margin: 0;
+    }
+
+    .blog-detail-download-link a {
+        padding: 6px 40px;
+    }
+
+    .blog-detail-social {
+        margin: 30px 0px 0px 0px;
+        gap: 15px;
+    }
+
+    .blog-detail-image img {
+        height: 200px;
+        width: 95%;
+    }
+
+    .blog-detail-contact-form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 440px) {
+    .blog-detail-header div strong {
+        font-size: 10px;
+    }
+}

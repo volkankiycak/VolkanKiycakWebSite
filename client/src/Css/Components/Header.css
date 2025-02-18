@@ -1,0 +1,254 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #04005D;
+    height: 140px;
+    width: auto;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+.header-drawer-menu-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-drawer-menu-times-icon {
+    text-align: end;
+    font-size: 25px;
+    margin: 20px 15px 0px 0px;
+    padding: 0px;
+}
+
+.header-drawer-menu-times-icon span {
+    color: black;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.header-drawer-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-drawer-menu ul {
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+    margin-top: 70px;
+}
+
+.header-menu-list-item {
+    list-style-type: none;
+}
+
+.header-menu-list-item:hover a::after {
+    width: 100%;
+}
+
+.header-menu-list-item a {
+    display: flex;
+    gap: 35px;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    position: relative;
+}
+
+.header-menu-list-item a::after {
+    content: "";
+    width: 0;
+    height: 0.5px;
+    background-color: #1367ef;
+    position: absolute;
+    bottom: -2px;
+    left: 50%;
+    transform: translate(-50%);
+    transition: 0.2s ease width;
+}
+
+.header-menu-list-item a.active::after {
+    width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 140px;
+    width: 90%;
+}
+
+.header-menu-hamburger-icon {
+    font-size: 24px;
+    display: none;
+    display: none;
+}
+
+.header-menu-hamburger-icon i span {
+    cursor: pointer;
+}
+
+.header-logo {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.header-logo a img {
+    height: 100px;
+    width: 100px;
+}
+
+.header-tab {
+    position: relative;
+}
+
+.header-tab .header-wrapper {
+    display: flex;
+    gap: 55px;
+    list-style-type: none;
+}
+
+.header-tab .header-wrapper li a {
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.header-tab .header-wrapper li a:hover {
+    color: #cccccc;
+}
+
+.header-tab .header-wrapper .bi-x-circle {
+    display: none;
+}
+
+.header-dropdown-container {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.header-dropdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.header-dropdown-tr {
+    color: white;
+    text-decoration: none;
+}
+
+.header-dropdown .IoMdArrowDropdown {
+    font-size: 25px;
+    color: white;
+    margin-top: 7px;
+}
+
+.header-dropdown-container:hover .header-dropdown .IoMdArrowDropdown,
+.header-dropdown-container:hover .header-dropdown-tr {
+    color: #cccccc;
+}
+
+.header-dropdown-menu {
+    position: absolute;
+    background-color: black;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    display: none;
+    z-index: 1;
+    opacity: 0;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header-dropdown-menu-content-tr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 12px;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.header-dropdown-menu-content-tr:hover {
+    color: chocolate;
+    margin-left: 10px;
+}
+
+.header-dropdown-menu-content-en {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 12px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: default;
+}
+
+.header-dropdown-container:hover .header-dropdown-menu {
+    display: block;
+    opacity: 1;
+}
+
+@media (max-width: 982px) {
+    .header-logo a img {
+        height: 80px;
+        width: 80px;
+    }
+
+    .header-tab .header-wrapper {
+        gap: 25px;
+    }
+
+    .header-tab .header-wrapper li a {
+        font-size: 16px;
+    }
+
+    .header-dropdown {
+        gap: 5px;
+    }
+}
+
+@media (max-width: 767px) {
+    .header-tab {
+        display: none;
+    }
+
+    .header-menu-hamburger-icon {
+        display: flex;
+    }
+
+    .header-hamburger-icon {
+        color: white;
+        font-size: 25px;
+    }
+}

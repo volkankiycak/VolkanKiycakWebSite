@@ -1,0 +1,86 @@
+.user-overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.5s ease, pointer-events 0s ease 0.5s;
+}
+
+.user-overlay.show {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.user-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    width: 80%;
+    padding: 50px 0px;
+    margin: 0px 20px;
+}
+
+.user-close {
+    font-size: 20px;
+    display: flex;
+    justify-content: end;
+    width: 90%;
+}
+
+.user-close-icon{
+    cursor: pointer;
+}
+
+.user-text {
+    width: 80%;
+}
+
+.user-text h2 {
+    font-size: 24px;
+}
+
+.user-text p {
+
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.user-buttons {
+    display: flex;
+    gap: 25px;
+
+}
+
+.user-buttons a {
+    padding: 8px 16px;
+    font-size: 14px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.user-buttons a:hover {
+    background-color: #0056b3;
+}
+
+@media(max-width:767px)
+{
+    .user-content {
+        width: 80%;
+        padding: 25px 0px;
+    }
+}

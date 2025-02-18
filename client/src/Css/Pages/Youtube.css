@@ -1,0 +1,394 @@
+.youtube-page-header {
+    display: flex;
+    justify-content: space-between;
+    height: 135px;
+    margin: 30px 80px 70px 80px;
+    border: 1px solid #04005d;
+}
+
+.youtube-page-title {
+    display: flex;
+    align-items: center;
+    padding-left: 60px;
+}
+
+.youtube-page-title h1 {
+    font-weight: bold;
+    font-size: 60px;
+    color: #04005d;
+}
+
+.youtube-breadcrumb {
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+    gap: 15px;
+}
+
+.youtube-breadcrumb a {
+    font-size: 13px;
+    color: grey;
+    text-decoration: none;
+}
+
+.youtube-breadcrumb a:hover {
+    color: #474747;
+}
+
+.youtube-breadcrumb-icon {
+    font-size: 11px;
+    color: grey;
+}
+
+.youtube-breadcrumb strong {
+    font-weight: bold;
+    color: grey;
+    font-size: 16px;
+}
+
+.youtube-page-content-container {
+    display: flex;
+    margin-bottom: 124px;
+    width: 100%;
+}
+
+.youtube-page-navbar-container {
+    display: none;
+    position: relative;
+    z-index: 9;
+}
+
+.youtube-page-navbar-toggle-button {
+    height: 50px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 16px;
+    color: #04005D;
+    font-weight: bold;
+    background-color: #26f0f1;
+    cursor: pointer;
+    border: none;
+}
+
+.youtube-page-navbar-toggle-button:hover {
+    color: #0000ff;
+}
+
+.youtube-page-hamburger-icon {
+    font-size: 20px;
+}
+
+.youtube-page-navbar-categories-text {
+    margin-left: 16px;
+    margin-right: 16px;
+    font-size: 18px;
+}
+
+.youtube-page-down-arrow-icon {
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.youtube-page-navbar-dropdown-menu {
+    position: absolute;
+    left: 0px;
+    background-color: #26f0f1;
+    width: 250px;
+    height: 80px;
+    box-shadow: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #04005D;
+    margin-top: 50px;
+}
+
+.youtube-page-navbar-dropdown-menu:hover {
+    color: rgb(14 116 144);
+}
+
+.youtube-page-navbar-dropdown-content {
+    display: block;
+    padding: 10px 16px;
+    background-color: #26f0f1;
+    color: #04005D;
+}
+
+.youtube-page-navbar-dropdown-link {
+    text-decoration: none;
+    color: #04005D;
+}
+
+.youtube-page-navbar-dropdown-link:hover {
+    color: #0000ff;
+}
+
+.youtube-page-first-child {
+    margin-top: 10px;
+}
+
+.youtube-page-category-container {
+    margin-left: 80px;
+}
+
+.youtube-page-category-container div h1 {
+    padding-bottom: 28px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.youtube-page-links-container {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.youtube-page-links-container a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #04005d;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+
+.youtube-page-links-container a:hover {
+    font-weight: bolder;
+}
+
+.youtube-page-links-container .youtube-page-links-container-bold {
+    font-weight: bolder;
+}
+
+.youtube-page-main-container {
+    margin-left: 80px;
+    margin-top: 3px;
+    padding-right: 30px;
+}
+
+.youtube-page-section-container {
+    padding-bottom: 32px;
+    display: flex;
+    justify-content: start;
+}
+
+.youtube-page-section-container h1 {
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 6%;
+}
+
+.youtube-page-video-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+    justify-content: center;
+}
+
+.youtube-page-video-item {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 18px;
+}
+
+.youtube-page-video-item a {
+    color: black;
+    text-decoration: none;
+    font-size: 11px;
+}
+
+.youtube-page-video-item a:hover .youtube-page-video-title h2 {
+    color: #007bff;
+}
+
+.youtube-page-video-item-image {
+    height: 160px;
+    width: 320px;
+    margin-bottom: 12px;
+    border-radius: 9px;
+}
+
+.youtube-page-icon-container {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    inset: 0px;
+}
+
+.youtube-page-icon-container img {
+    border-radius: 8px;
+    height: 28px;
+    margin-top: -40px;
+}
+
+.youtube-page-video-title h2 {
+    font-weight: bold;
+}
+
+@media (max-width: 1430px) {
+    .youtube-page-video-item-image {
+        height: 140px;
+        width: 280px;
+    }
+
+    .youtube-page-icon-container img {
+        height: 23px;
+    }
+
+    .youtube-page-video-title h2 {
+        font-size: 14px;
+    }
+
+    .youtube-page-category-container {
+        margin-left: 70px;
+    }
+
+    .youtube-page-category-container div h1 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 982px) {
+    .youtube-page-header {
+        margin: 30px 30px 70px 30px;
+    }
+
+    .youtube-page-title {
+        margin-right: 10px;
+    }
+
+    .youtube-page-title h1 {
+        font-size: 35px;
+    }
+
+    .youtube-breadcrumb a,
+    .youtube-breadcrumb .youtube-breadcrumb-icon {
+        font-size: 11px;
+    }
+
+    .youtube-breadcrumb strong {
+        font-size: 14px;
+    }
+
+    .youtube-page-category-container {
+        margin-left: 30px;
+    }
+
+    .youtube-page-category-container div h1 {
+        font-size: 28px;
+    }
+
+    .youtube-page-video-item-image {
+        height: 130px;
+        width: 260px;
+    }
+
+    .youtube-page-icon-container img {
+        height: 20px;
+    }
+
+    .youtube-page-video-list {
+        gap: 10px;
+    }
+
+    .youtube-page-main-container {
+        padding-right: 10px;
+        margin-left: 25px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 71%;
+    }
+
+    .youtube-page-links-container a {
+        font-size: 15px;
+    }
+
+    .youtube-page-content-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .youtube-page-main-container .youtube-page-video-list {
+        display: flex;
+        justify-content: center;
+    }
+
+    .youtube-page-section-container {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 767px) {
+    .youtube-page-header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .youtube-page-title {
+        padding: 20px 0px 20px 20px;
+    }
+
+    .youtube-breadcrumb {
+        margin: 0px 0px 40px 20px;
+    }
+
+    .youtube-page-category-container {
+        display: none;
+    }
+
+    .youtube-page-content-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .youtube-page-main-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 0px;
+    }
+
+    .youtube-page-video-list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .youtube-page-navbar-container {
+        display: inline-flex;
+        flex-direction: column;
+        margin-left: 5.5%;
+    }
+
+    .youtube-page-content-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .youtube-page-navbar-container {
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        margin-bottom: 10%;
+    }
+
+    .youtube-page-main-container {
+        width: 98%;
+    }
+
+    .youtube-page-section-container {
+        width: 70%;
+    }
+}

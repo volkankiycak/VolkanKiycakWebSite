@@ -1,0 +1,88 @@
+.user-info-toggle {
+    position: fixed;
+    top: 25%;
+    right: 0px;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 10;
+    border-radius: 20px;
+    color: #333;
+    border: 2px solid #333;
+    padding: 10px 15px;
+    background-color: #fff;
+    transition: all 0.3s ease;
+}
+
+.user-info-toggle:hover {
+    background-color: #f0f0f0;
+    border-color: #000;
+}
+
+.user-drawer-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.user-drawer-header {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    font-size: 25px;
+    width: 80%;
+    padding-top: 20px;
+}
+
+.user-drawer-close-icon {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.user-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    margin-top: 20px;
+    width: 80%;
+}
+
+.user-details p {
+    font-size: 16px;
+    margin: 10px 0;
+    word-wrap: break-word;  
+    max-width: 100%;   
+}
+
+.user-details strong {
+    font-weight: bold;
+}
+
+.user-logout-button-container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.user-logout-button {
+    background-color: #ff5c5c;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.user-logout-button:hover {
+    background-color: #ff4040;
+}
+
+.user-logout-button:active {
+    background-color: #e63946;
+}

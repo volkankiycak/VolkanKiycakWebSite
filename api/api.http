@@ -1,0 +1,6 @@
+@api_HostAddress = https://api.volkankiycak.com.tr
+
+GET {{api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
